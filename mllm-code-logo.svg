@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    
+    <!-- Glowing effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bgGrad)"/>
+  
+  <!-- Decorative hexagonal grid -->
+  <g stroke="#ffffff20" stroke-width="1">
+    <path d="M0 0 L800 400" />
+    <path d="M0 80 L800 480" />
+    <path d="M0 160 L800 560" />
+    <path d="M0 240 L800 640" />
+  </g>
+
+  <!-- Central circular gradient -->
+  <defs>
+    <radialGradient id="grad1" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#1e1e1e;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="400" cy="200" r="180" fill="url(#grad1)"/>
+
+  <!-- Code Window Elements -->
+  <!-- HTML Window -->
+  <g transform="translate(200,100)">
+    <rect x="0" y="0" width="160" height="100" rx="5" fill="#2d2d2d"/>
+    <rect x="0" y="0" width="160" height="20" rx="5" fill="#1e1e1e"/>
+    <circle cx="15" cy="10" r="3" fill="#ff5f56"/>
+    <circle cx="25" cy="10" r="3" fill="#ffbd2e"/>
+    <circle cx="35" cy="10" r="3" fill="#27c93f"/>
+    <text x="10" y="40" fill="#e44d26" font-family="Monaco" font-size="12">&lt;div class="code"&gt;</text>
+    <text x="10" y="60" fill="#e44d26" font-family="Monaco" font-size="12">&lt;img src="data"/&gt;</text>
+    <text x="10" y="80" fill="#e44d26" font-family="Monaco" font-size="12">&lt;/div&gt;</text>
+  </g>
+
+  <!-- Python Window -->
+  <g transform="translate(440,80)">
+    <rect x="0" y="0" width="160" height="120" rx="5" fill="#2d2d2d"/>
+    <rect x="0" y="0" width="160" height="20" rx="5" fill="#1e1e1e"/>
+    <circle cx="15" cy="10" r="3" fill="#ff5f56"/>
+    <circle cx="25" cy="10" r="3" fill="#ffbd2e"/>
+    <circle cx="35" cy="10" r="3" fill="#27c93f"/>
+    <text x="10" y="40" fill="#306998" font-family="Monaco" font-size="12">import matplotlib</text>
+    <text x="10" y="60" fill="#306998" font-family="Monaco" font-size="12">plt.plot(x, y)</text>
+    <text x="10" y="80" fill="#306998" font-family="Monaco" font-size="12">plt.show()</text>
+  </g>
+
+  <!-- LaTeX Window -->
+  <g transform="translate(240,240)">
+    <rect x="0" y="0" width="160" height="100" rx="5" fill="#2d2d2d"/>
+    <rect x="0" y="0" width="160" height="20" rx="5" fill="#1e1e1e"/>
+    <circle cx="15" cy="10" r="3" fill="#ff5f56"/>
+    <circle cx="25" cy="10" r="3" fill="#ffbd2e"/>
+    <circle cx="35" cy="10" r="3" fill="#27c93f"/>
+    <text x="10" y="40" fill="#92c47c" font-family="Monaco" font-size="12">\begin{equation}</text>
+    <text x="10" y="60" fill="#92c47c" font-family="Monaco" font-size="12">\sum_{i=1}^n x_i</text>
+    <text x="10" y="80" fill="#92c47c" font-family="Monaco" font-size="12">\end{equation}</text>
+  </g>
+
+  <!-- Central Brain Network -->
+  <g transform="translate(400,200)" filter="url(#glow)">
+    <!-- Main brain outline -->
+    <path d="M-40,-20 C-40,-60 40,-60 40,-20 C60,-20 60,20 40,20 C40,60 -40,60 -40,20 C-60,20 -60,-20 -40,-20" 
+          fill="none" stroke="#4a90e2" stroke-width="2"/>
+    
+    <!-- Neural connections -->
+    <g stroke="#4a90e2" stroke-width="1">
+      <line x1="-30" y1="-30" x2="30" y2="30"/>
+      <line x1="30" y1="-30" x2="-30" y2="30"/>
+      <line x1="0" y1="-40" x2="0" y2="40"/>
+      <line x1="-40" y1="0" x2="40" y2="0"/>
+    </g>
+    
+    <!-- Neural nodes -->
+    <g fill="#4a90e2">
+      <circle cx="-30" cy="-30" r="4"/>
+      <circle cx="30" cy="-30" r="4"/>
+      <circle cx="-30" cy="30" r="4"/>
+      <circle cx="30" cy="30" r="4"/>
+      <circle cx="0" cy="0" r="6"/>
+    </g>
+  </g>
+
+  <!-- Image Processing Elements -->
+  <g transform="translate(460,240)">
+    <rect x="0" y="0" width="140" height="80" rx="5" fill="#2d2d2d"/>
+    <!-- Image representation -->
+    <rect x="10" y="10" width="60" height="60" rx="3" fill="none" stroke="#fff" stroke-width="2"/>
+    <line x1="20" y1="30" x2="40" y2="50" stroke="#fff" stroke-width="2"/>
+    <circle cx="45" cy="25" r="4" fill="#fff"/>
+    <!-- Arrow -->
+    <path d="M80,40 L100,40 L95,35 M100,40 L95,45" fill="none" stroke="#fff" stroke-width="2"/>
+    <!-- Code representation -->
+    <text x="110" y="35" fill="#fff" font-family="Monaco" font-size="14">&lt;/&gt;</text>
+  </g>
+
+  <!-- Flying code symbols -->
+  <g fill="#ffffff40">
+    <text x="150" y="180" font-family="Monaco" font-size="14">{}</text>
+    <text x="600" y="150" font-family="Monaco" font-size="14">&lt;/&gt;</text>
+    <text x="520" y="220" font-family="Monaco" font-size="14">( )</text>
+    <text x="180" y="280" font-family="Monaco" font-size="14">[ ]</text>
+  </g>
+
+  <!-- Title with enhanced styling -->
+  <g transform="translate(400,350)">
+    <text text-anchor="middle" font-family="Arial" font-weight="bold" filter="url(#glow)">
+      <tspan x="0" y="0" fill="#ffffff" font-size="28">Awesome MLLM</tspan>
+      <tspan x="0" y="30" fill="#4a90e2" font-size="24">for Code Generation</tspan>
+    </text>
+  </g>
+</svg>
