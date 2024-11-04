@@ -1,6 +1,6 @@
 # Awesome-Multimodal-LLM-for-Code [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-![](assets/mllm-code-logo.svg)
+![](mllm-code-logo.svg)
 
 
 This repo includes papers about methods, benchmarks and evaluation for multimodal code generation.
