@@ -49,7 +49,7 @@ This repo includes papers about methods, benchmarks and evaluation for multimoda
 
 ## 3. Visually Rich Programming
 
-1. [**MMCode: Evaluating Multi-Modal Code Large Language Models with Visually Rich Programming Problems.**](https://arxiv.org/abs/2405.07990) *Kaixin Li, Yuchen Tian, Qisheng Hu, Ziyang Luo, Jing Ma
+1. [**MMCode: Evaluating Multi-Modal Code Large Language Models with Visually Rich Programming Problems.**](https://arxiv.org/abs/2404.09486) *Kaixin Li, Yuchen Tian, Qisheng Hu, Ziyang Luo, Jing Ma
 .* Arxiv 2024. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![GitHub Repo stars](https://img.shields.io/github/stars/happylkx/MMCode)](https://github.com/happylkx/MMCode)
 
 
