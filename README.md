@@ -1,10 +1,25 @@
-# Awesome-Multimodal-LLM-for-Code [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
+  <h1>👨‍💻 Awesome MLLM for Code</h1>
+  <a href="https://awesome.re">
+    <img src="https://awesome.re/badge.svg" alt="Awesome">
+  </a>
+  <a href="https://img.shields.io/badge/PRs-Welcome-red">
+    <img src="https://img.shields.io/badge/PRs-Welcome-red" alt="PRs Welcome">
+  </a>
+  <a href="https://img.shields.io/github/last-commit/xjywhu/Awesome-Multimodal-LLM-for-Code?color=green">
+    <img src="https://img.shields.io/github/last-commit/xjywhu/Awesome-Multimodal-LLM-for-Code?color=green" alt="Last Commit">
+  </a>
+</div>
 
 ![](mllm-code-logo.svg)
 
 
-This repo includes papers about methods, benchmarks and evaluation for multimodal code generation.
-
+This repo includes papers about methods, benchmarks and evaluation for code generation under multimodal scenarios:
+- UI Code Generation: Web front-end code generation, Mobile app UI code generation, etc。
+- Scientific Code Generation: plot, chart, formula, etc.
+- Visually Rich Programming: programming problems with image examples.
+- Logo.
+- Program repair under above scenarios.
 
 [comment]: <> (multimodal code generation such as UI code generation, scientific plots code generation and so on.)
 
@@ -34,6 +49,9 @@ This repo includes papers about methods, benchmarks and evaluation for multimoda
 
 6. [**Sketch2Code: Evaluating Vision-Language Models for Interactive Web Design Prototyping**](https://arxiv.org/abs/2410.16232) *Ryan Li, Yanzhe Zhang, Diyi Yang .* Arxiv 2024. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![GitHub Repo stars](https://img.shields.io/github/stars/SALT-NLP/Sketch2Code)](https://github.com/SALT-NLP/Sketch2Code)
 
+7. [**Interaction2Code: How Far Are We From Automatic Interactive Webpage Generation?**](https://arxiv.org/abs/2411.03292) *Jingyu Xiao, Yuxuan Wan, Yintong Huo, Zhiyao Xu, Michael R.Lyu
+.* Arxiv 2024.
+
 
 
 
@@ -60,10 +78,13 @@ This repo includes papers about methods, benchmarks and evaluation for multimoda
 1. [**LogoMotion: Visually Grounded Code Generation for Content-Aware Animation.**](https://arxiv.org/abs/2405.07065) *Vivian Liu, Rubaiat Habib Kazi, Li-Yi Wei, Matthew Fisher, Timothy Langlois, Seth Walker, Lydia Chilton
 .* Arxiv 2024.
 
-## 5. Real-world Issue
+## 5. Program Repair
 
 1. [**SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?**](https://arxiv.org/abs/2410.03859) *John Yang, Carlos E. Jimenez, Alex L. Zhang, Kilian Lieret, Joyce Yang, Xindi Wu, Ori Press, Niklas Muennighoff, Gabriel Synnaeve, Karthik R. Narasimhan, Diyi Yang, Sida I. Wang, Ofir Press
 .* Arxiv 2024.
+
+2. [**DesignRepair: Dual-Stream Design Guideline-Aware Frontend Repair with Large Language Models**](https://arxiv.org/abs/2411.01606) * Mingyue Yuan, Jieshan Chen, Zhenchang Xing, Aaron Quigley, Yuyu Luo, Gelareh Mohammadi, Qinghua Lu, Liming Zhu.* ICSE 2025.  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![GitHub Repo stars](https://img.shields.io/github/stars/DesignRepair2024/DesignRepair2024)](https://github.com/DesignRepair2024/DesignRepair2024)
+
 
 ## 6. General Benchmark
 
