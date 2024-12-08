@@ -105,8 +105,6 @@ This repo includes papers about methods, benchmarks and evaluation for code gene
 .* Arxiv 2024.
 
 
-
-
 ## 5. Program Repair
 
 1. [**SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?**](https://arxiv.org/abs/2410.03859) *John Yang, Carlos E. Jimenez, Alex L. Zhang, Kilian Lieret, Joyce Yang, Xindi Wu, Ori Press, Niklas Muennighoff, Gabriel Synnaeve, Karthik R. Narasimhan, Diyi Yang, Sida I. Wang, Ofir Press
@@ -120,3 +118,10 @@ This repo includes papers about methods, benchmarks and evaluation for code gene
 1. [**Image2Struct: Benchmarking Structure Extraction for Vision-Language Models**](https://arxiv.org/abs/2410.22456) *Josselin Somerville Roberts, Tony Lee, Chi Heem Wong, Michihiro Yasunaga, Yifan Mai, Percy Liang
 .* Arxiv 2024.
 
+# 🔥Contributing
+This is an active repository and your contributions are always welcome! Before you add papers/tools into the awesome list, please make sure that:
+- First, think about which category the work should belong to.
+- The paper or tools is related to Multimodal Large Language Models (MLLMs) for code generation.
+- The paper should be inserted in the correct position in chronological order (publication/arxiv release time).
+- The link to paper should be the arxiv page, not the pdf page if this is a paper posted on arxiv.
+- If the paper is accpeted, please use the correct publication venue instead of arxiv.
