@@ -18,7 +18,7 @@ This repo includes papers about methods, benchmarks and evaluation for code gene
 - UI Code Generation: Web front-end code generation, Mobile app UI code generation, etc。
 - Scientific Code Generation: plot, chart, formula, etc.
 - Visually Rich Programming: programming problems with image examples.
-- Logo.
+- Logo: image generation through svg code generation.
 - Program repair under above scenarios.
 
 [comment]: <> (multimodal code generation such as UI code generation, scientific plots code generation and so on.)
@@ -73,6 +73,10 @@ This repo includes papers about methods, benchmarks and evaluation for code gene
 .* EMNLP 2024 (Findings). &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![GitHub Repo stars](https://img.shields.io/github/stars/zzh-SJTU/AcademiaChart)](https://github.com/zzh-SJTU/AcademiaChart)
 
 
+6. [**Drawing Pandas: A Benchmark for LLMs in Generating Plotting Code.**](https://arxiv.org/abs/2412.02764) Timur Galimzyanov, Sergey Titov, Yaroslav Golubev, Egor Bogomolov
+.* Arxiv 2024. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![GitHub Repo stars](https://img.shields.io/github/stars/JetBrains-Research/PandasPlotBench)](https://github.com/JetBrains-Research/PandasPlotBench)
+
+
 
 
 
@@ -86,6 +90,10 @@ This repo includes papers about methods, benchmarks and evaluation for code gene
 
 3. [**DynEx: Dynamic Code Synthesis with Structured Design Exploration for Accelerated Exploratory Programming.**](https://arxiv.org/pdf/2410.00400) *Jenny Ma, Karthik Sreedhar, Vivian Liu, Sitong Wang, Pedro Alejandro Perez, Riya Sahni, Lydia B. Chilton
 .* Arxiv 2024.
+   
+4. [**ScratchEval: Are GPT-4o Smarter than My Child? Evaluating Large Multimodal Models with Visual Programming Challenges.**](https://arxiv.org/abs/2411.18932) *Rao Fu, Ziyang Luo, Hongzhan Lin, Zhen Ye, Jing Ma
+.* Arxiv 2024. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![GitHub Repo stars](https://img.shields.io/github/stars/HKBUNLP/ScratchEval)](https://github.com/HKBUNLP/ScratchEval)
+
 
 
 ## 4. Logo Code Generation
