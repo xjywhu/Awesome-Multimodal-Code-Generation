@@ -56,7 +56,7 @@ This repo includes papers about methods, benchmarks and evaluation for code gene
 .* UIST 2024.
 
 9. [**WAFFLE: Multi-Modal Model for Automated Front-End Development**](https://www.arxiv.org/abs/2410.18362) *Shanchao Liang, Nan Jiang, Shangshu Qian, Lin Tan
-.* Arxiv 2024.
+.* Arxiv 2024. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![GitHub Repo stars](https://img.shields.io/github/stars/lt-asset/Waffle)](https://github.com/lt-asset/Waffle)
 
 ## 2. Scientific Plots Code Generation
 
