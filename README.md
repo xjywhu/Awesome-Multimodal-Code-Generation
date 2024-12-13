@@ -55,7 +55,8 @@ This repo includes papers about methods, benchmarks and evaluation for code gene
 8. [**UIClip: A Data-driven Model for Assessing User Interface Design**](https://dl.acm.org/doi/10.1145/3654777.3676408) *Jason Wu, Yi-Hao Peng, Xin Yue Li, Amanda Swearngin, Jeffrey P. Biham, Jeffrey Nichols
 .* UIST 2024.
 
-
+9. [**WAFFLE: Multi-Modal Model for Automated Front-End Development**](https://www.arxiv.org/abs/2410.18362) *Shanchao Liang, Nan Jiang, Shangshu Qian, Lin Tan
+.* Arxiv 2024.
 
 ## 2. Scientific Plots Code Generation
 
